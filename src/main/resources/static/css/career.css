@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
+
+.header-widget {
+    height: 400px;
+
+    background-image: url("../images/banner-career.png");
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    position: relative;
+}
+.header-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 56px;
+    padding-left: 67px;
+    width: 1338px;
+    background: #ffffff52;
+    height: 85px;
+}
+
+.phn-number {
+    width: 189px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phn-number svg{
+    margin-right: 5px;
+}
+
+
+.number {
+    font-size: 18px;
+}
+
+.getintouch  {
+    color: #fd2e35;
+    /* padding-right: 5px; */
+    margin-right: 53px;
+    border: solid 1px #fd2e35;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: ease-in-out 4s;
+}
+
+
+.nav_control {
+    display: flex;
+    align-items: center;
+}
+.hamburger {
+    width: 25px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: transparent;
+    border: none;
+}
+.h-line {
+
+    width: 100%;
+    display: block;
+    border-top: solid 2px #FD2E35;
+}
+.banner-content {
+    /* column-gap: 25px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    row-gap: 40px;
+    padding-left: 50px;
+}
+.banner-bottom-line {
+    /*margin-top: 80px;*/
+    padding-left: 50px;
+}
+.banner-content strong {
+    font-size: 38px;
+    line-height: 33px;
+}
+
+
+.banner-content span {
+    font-size: 18px;
+    line-height: 28px;
+}
+.banner-bottom-line span {
+
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.offer-template {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 45px;
+}
+.offer-content {
+    display: flex;
+    flex-direction: column;
+}
+.offer-content h {
+    font-size: 24px;
+    font-family: bold;
+
+}
+.offer-content span {
+    width: 976px;
+    font-size: 16px;
+    margin-top: 45px;
+    line-height: 24px;
+}
+.health-list {
+    margin-top: 49px;
+}
+.health-list ul {
+    display: flex;
+    align-items: center;
+}
+li.career-growth {
+    display: flex;
+    height: fit-content;
+    width: 310px;
+    border: solid 1px;
+    background: #F0EEED;
+    flex-direction: column;
+    row-gap: 20px;
+    border: none;
+    margin-left: 20px;
+    padding: 20px;
+    /* text-decoration: none; */
+}
+.career-growth img {
+    width: 85px;
+    height: 95px;
+}
+.it-dept-1{
+
+    background-image: url("../images/job-vacancy-soft.png");
+}
+.it-dept-2{
+    background-image: url("../images/job-vacancy-con.png");
+}
+.it-dept-3{
+    background-image: url("../images/job-vacancy-id.png");
+}

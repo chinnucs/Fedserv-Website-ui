@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.banner-widget{
+
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.container{
+    margin: 0 auto;
+  width:100%;
+    max-width:1440px ;
+    position: relative;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 50px;
+}
+.banner-header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    padding-left: 28px;
+    background: #fff0f061;
+}
+.getintouch  {
+    color: #fd2e35;
+    /* padding-right: 5px; */
+    margin-right: 53px;
+    border: solid 1px #fd2e35;
+    padding: 5px 10px;
+    text-decoration: none;
+
+}
+.nav_control {
+    display: flex;
+    align-items: center;
+}
+.hamburger {
+
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: transparent;
+    border: none;
+
+
+}
+.h-line {
+    width: 100%;
+    display: block;
+    border-top: solid 2px #fd2e35;
+}
+
+/*container anu width koduthe so banner widget width kodukanoo*/
+/*banner-widget full width koduthal madhi*/
+.banner-body {
+    padding-left: 60px;
+    display: grid;
+    row-gap: 20px;
+}
+.banner-body h {
+
+    font-size: 38px;
+}
+.banner-footer {
+    padding: 5px ;
+    background: #ffffff52;
+}
+
+.banner-footer span {
+    padding-left: 60px;
+}
+.requirement {
+    padding-left: 60px;
+    margin-top: 45px;
+}
+
+.requirement h2 {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.requirement p {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+.requirement ul {
+    line-height: 24px;
+    font-size: 16px;
+    color: #0000009e;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.requirement span{
+    color: #0000009e;
+    margin-top: 20px;
+}
+
+.upload-content {
+    margin-top: 53px;
+    padding-top: 25px;
+    line-height: 75px;
+    padding-left: 60px;
+}
+.upload-content h {
+    font-size: 20px;
+}
+.upload-form{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 30px;
+}
+
+.upload-form input {
+    height: 35px;
+    width: 400px;
+    padding: 5px 10px;
+    background: #FAFAFA;
+    border: none;
+    outline: none;
+}
+
+
+
+.upload-form button {
+    width: 150px;
+    height: 35px;
+    border-radius: 3px;
+    background: #fd2e35e6;
+    border: none;
+}
+#upload-cv{
+
+}

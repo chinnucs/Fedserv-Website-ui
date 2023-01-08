@@ -1,0 +1,17 @@
+.gallery-widget .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+
+}
+.gallery-list{
+    display: block;
+    margin-bottom: 15px;
+}
+.gallery-list img{
+    display: block;
+    width: 100%;
+}
+.template-title {
+    grid-column: span 4;
+}

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif,manrope;
+    font-size: 14px;
+}
+.container{
+    margin: 0 auto;
+    width:100%;
+    max-width: 1440px;
+    position:relative;
+
+}
+.banner-widget {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.banner-content {
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+    padding-top: 200px;
+    padding-left: 70px;
+
+
+}
+.banner-content strong {
+    font-size: 35px;
+    font-family: manpore;
+}
+
+.banner-content span {
+    font-size: 18px;
+    font-family: manpore;
+}
+.banner-footer {
+    margin-top: 67px;
+    padding: 5px;
+    background: #F0F0F0;
+    padding-left: 70px;
+    font-size: 16px;
+}
+section.content {
+    /* margin-top: 20px; */
+    padding: 30px 80px;
+}
+.content h {
+    padding-left: 35px;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: manpore;
+}
+
+.location-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 15px;
+}
+.kerala {
+    width: 415px;
+    display: grid;
+    row-gap: 11px;
+}
+.Bangalore {
+    width: 415px;
+    display: grid;
+    row-gap: 11px;
+}
+.Vishakhapatnam {
+    width: 415px;
+    display: grid;
+    row-gap: 11px;
+}
+.location-list h1 {
+
+    font-size: 22px;
+    font-family: manpor;
+}
+
+.location-list span {
+    font-size: 16px;
+    font-family: manpore;
+}
+.contact{
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.gein-touch {
+    padding: 15px 35px;
+}
+
+.gein-touch strong {
+    font-size: 28px;
+    font-family: manpore;
+    color: #FAFAFA;
+}
+
+.contact-form {
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,170px); */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    /* padding: 10px; */
+    padding: 20px 35px;
+    width: 500px;
+}
+.contact-form  input {
+    padding: 6px;
+    border: none;
+}
+.contact-form textarea {
+    margin-left: 550px;
+    position: absolute;
+    border: none;
+    padding: 10px;
+
+}
+
+
+.gein-touch button {
+    background: #FD2E35;
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: center;
+    border: none;
+    color: #ffff;
+    margin-left: 980px;
+
+}

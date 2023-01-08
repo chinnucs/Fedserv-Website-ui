@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.banner-widget{
+
+    height: 100%;
+    width: 100%;
+    background: #F7F4F2;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 11290px;
+    position: relative;
+}
+
+.header-widget{
+    max-width: 1338px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+
+}
+.header-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 74px;
+}
+.harder-content {
+    font-size: 42px;
+    line-height: 54px;
+}
+
+.bottom-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+    background: #F0EEED;
+    padding: 0px 64px;
+}
+.col{
+    display: grid;
+    grid-template-columns: 200px 200px auto;
+
+}
+.col strong {
+    font-size: 24px;
+}
+.col span {
+    font-size: 20px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+}
+.Process {
+    display: flex;
+    flex-direction: column;
+}
+.employes {
+    display: flex;
+    flex-direction: column;
+}
+.socialmedia {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.department-list {
+    margin-top: 68px;
+    display: grid;
+    grid-template-columns: 354px 354px 354px;
+    column-gap: 30px;
+    margin-bottom: 80px;
+}
+.career-body{
+    background-image: url("../images/carrer-img.png");
+    height: 566px;
+
+}
+.career-body {
+    display: flex;
+    /*align-items: center;*/
+
+    justify-content: space-between;
+}
+.career-content {
+    display: flex;
+    flex-direction: column;
+    /*line-height: 28px;*/
+    padding-top: 132px;
+    padding-left: 84px;
+}
+
+.career-img-list{
+    display: flex;
+    align-items: flex-end;
+
+}
+.career-img-list ul {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 22px;
+}
+
+.career-content span {
+    font-size: 34px;
+    color: #FD2E35;
+}
+
+.career-content strong {
+    font-size: 60px;
+    color: #ffff;
+}
+
+
+
+.career-content button {
+    border: solid 1px;
+    width: 195px;
+    height: 48px;
+    border-radius: 30px;
+    border-color: #FD2E35;
+    background: none;
+}
+.footer-widget {
+    padding-left: 76px;
+    padding-right: 81px;
+}
+
+.adress-list {
+    display: flex;
+    align-items: center;
+}
+.add-1 {
+    display: flex;
+    flex-direction: column;
+}
+
